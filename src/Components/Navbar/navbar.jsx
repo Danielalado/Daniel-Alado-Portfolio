@@ -2,7 +2,7 @@ import globe from "../../assets/navbar-images/globe.png"
 import instagram from "../../assets/navbar-images/instagram.png"
 import linked from "../../assets/navbar-images/linked.png"
 import github from "../../assets/navbar-images/github.png"
-import "./navbar.css"
+import "./Navbar.css"
 
 export const Navbar = () => {
     return(
