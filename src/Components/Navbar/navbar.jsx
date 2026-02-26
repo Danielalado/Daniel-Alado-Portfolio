@@ -11,7 +11,7 @@ export const Navbar = () => {
                 <h2 className="navbar-logo">DA</h2>
                 <div className="navbar-name">
                     <h4>DANIEL ALADO</h4>
-                    <p>Creative Web Design</p>
+                    <p>CRAETIVE WE DESIGNER</p>
                 </div>
             </div>
             
