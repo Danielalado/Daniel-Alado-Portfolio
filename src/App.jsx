@@ -1,6 +1,6 @@
-import { About } from "./Components/About/About";
-import { Header } from "./Components/Header/Header";
-import { Navbar } from "./Components/Navbar/Navbar";
+import  About  from "../src/Components/About/About";
+import  Header from "../src/Components/Header/Header";
+import  Navbar from "../src/Components/Navbar/Navbar";
 
 export default function App() {
   return (

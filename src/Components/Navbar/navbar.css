@@ -15,8 +15,6 @@
   right: 0;
   z-index: 2;
   backdrop-filter: blur(1rem);
-  /* background-color: red; */
-
 }
 
 .navbar-left{
@@ -98,4 +96,28 @@ hr{
   background: linear-gradient(to right, #0d98e9,#00e1ff);
   transition: 0.9s;
 
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar{
+  padding: 0.7rem 1.5rem;
+    width: 95%;
+  }
+
+  .navbar-btns{
+    display: none;
+  }
+  hr{
+    display: none;
+  }
+  .navbar-right{
+    display: none;
+  }
+
+  .navbar-logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+}
 }

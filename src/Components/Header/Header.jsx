@@ -1,7 +1,7 @@
 import headerImage from "../../assets/headerImages/right-arrow.png" 
 import "./Header.css"
 
-export const Header = () => {
+export default function Header () {
     return(
         <section id="header">
              <div className="header">

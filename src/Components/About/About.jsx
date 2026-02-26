@@ -4,7 +4,7 @@ import location from "../../assets/AboutImages/location.png"
 import "./About.css"
 
 
-export const About = () => {
+export default function About () {
     return(
         <section id="about">
             <div className="about">

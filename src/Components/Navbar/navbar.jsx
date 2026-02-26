@@ -4,7 +4,7 @@ import linked from "../../assets/navbar-images/linked.png"
 import github from "../../assets/navbar-images/github.png"
 import "./Navbar.css"
 
-export const Navbar = () => {
+export default function Navbar() {
     return(
         <div className="navbar">
             <div className="navbar-left">

@@ -25,6 +25,27 @@ a{
     margin: auto;
 } */
 
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+  background: #41405366;
+  color: white;
+  padding: 0.9rem 2rem;
+  border-radius: 5rem;
+  width: 85%;
+  border: 1px solid rgb(80, 79, 79);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+}
+
+
+
 
 
 
