@@ -1,28 +1,45 @@
-import globe from "../../assets/navbar-images/globe.png"
-import instagram from "../../assets/navbar-images/instagram.png"
-import linked from "../../assets/navbar-images/linked.png"
-import github from "../../assets/navbar-images/github.png"
+import globe from "../../assets/NavbarImages/globe.png"
+import instagram from "../../assets/NavbarImages/instagram.png"
+import linked from "../../assets/NavbarImages/linked.png"
+import github from "../../assets/NavbarImages/github.png"
+import { Link } from "react-router-dom"
 import "./Navbar.css"
 
 export default function Navbar() {
     return(
         <div className="navbar">
-            <div className="navbar-left">
-                <h2 className="navbar-logo">DA</h2>
-                <div className="navbar-name">
-                    <h4>DANIEL ALADO</h4>
-                    <p>CRAETIVE WE DESIGNER</p>
-                </div>
-            </div>
-            
+                <Link to="/" className="navbar-left">
+                    <h2 className="navbar-logo">DA</h2>
+                    <div className="navbar-name">
+                        <h4>DANIEL ALADO</h4>
+                        <p>CRAETIVE WEB DESIGNER</p>
+                    </div>
+                </Link>
+           
             <ul className="navbar-btns">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">EXPERIENCE</a>
-                <a href="#">WORK</a>
-                <a href="#">CONTACT</a>
+                
+                <Link to="/">
+                HOME
+                </Link>
+
+                <Link to="/about">
+                ABOUT
+                </Link>
+
+                <Link to="/experience">
+                EXPERIENCE
+                </Link>
+
+                <Link to="/work">
+                WORK
+                </Link>
+
+                <Link to="/contact">
+                CONTACT
+                </Link>
+
             </ul>
-           <hr />
+           <hr className="navbar-hr" />
            
 
             <div className="navbar-right">

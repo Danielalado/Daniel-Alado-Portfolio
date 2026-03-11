@@ -1,6 +1,7 @@
-import headerImage from "../../assets/headerImages/right-arrow.png"
+import HeaderImage from "../../assets/HeaderImages/right-arrow.png"
 // import alado from "../../assets/AboutImages/alado.jpg"
 import location from "../../assets/AboutImages/location.png"
+// import { Link } from "react-router-dom"
 import "./About.css"
 
 
@@ -28,7 +29,7 @@ export default function About () {
                     <div className="about-my-works">
                         <a href="#" className="project">
                             VIEW MY WORK
-                            <img src={headerImage} alt="" />
+                            <img src={HeaderImage} alt="" />
                         </a>
                     
                         <a href="#" className="portfolio">
