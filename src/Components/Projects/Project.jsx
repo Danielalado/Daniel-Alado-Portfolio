@@ -3,6 +3,7 @@ import Date from "../../assets/ServicesImages/code.png"
 import Arrow from "../../assets/HeaderImages/right-arrow.png"
 import Coffee from "../../assets/ProjectImages/Coffee.png"
 import EBooks from "../../assets/ProjectImages/EBook.png"
+import Journey from "../../assets/ProjectImages/Journey.png"
 import "./Project.css"
 
 
@@ -119,6 +120,42 @@ export default function Project() {
                 </div>
 
             </div>
+
+
+            <div className="project-cards">
+                <div className="project-left">
+                    <img src={Journey} alt="" />
+                </div>
+
+                <div className="project-right">
+                    <div className="project-right-top">
+                        <p className="date">
+                            <img src={Date} alt="" />
+                            <p>2025</p>
+                        </p>
+                        <p className="number">4</p>
+                    </div>
+
+                    <h2 className="project-name">Devlopement Journey</h2>
+                    <p className="project-name-description">This is how I started my developement Journey</p>
+                    <p className="project-name-about">I started my developement journey with NODE8, an innovative hub with the focus on assisting young youth in and arout Ho to acquired a hands-on skills</p>
+                    <hr className="project-hr" />
+
+                    <div className="project-right-bottom">
+                        <div className="left">
+                            <p className="left-top">FRONTEND DEVELOPMENT</p>
+                            <p className="left-bottom">WEB DESIGN</p>
+                        </div>
+                        <div className="right">
+                            <p>EXPLORE</p>
+                            <img src={Arrow} alt="" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     )
 }
