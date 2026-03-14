@@ -156,6 +156,11 @@ export default function Project() {
 
             </div>
 
+            <div className="view-project">
+                <p>VIEW ALL PROJECTS</p>
+                <img src={Arrow} alt="" />
+            </div>
+
         </div>
     )
 }

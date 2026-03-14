@@ -1,4 +1,5 @@
 import About from "../../Components/About/About";
+import Contact from "../../Components/Contact/Contact";
 // import Navbar from "../../Components/Navbar/Navbar";
 import Header from "../../Components/Header/Header"
 import Project from "../../Components/Projects/Project";
@@ -14,6 +15,7 @@ export default function Home() {
         <Services />
         <TechTools />
         <Project />
+        <Contact />
     </div>
     )
 }

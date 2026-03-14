@@ -39,6 +39,7 @@
     height: 50%;
     border-radius: 1rem;
     border: 0.1rem solid rgb(80, 79, 79);
+    /* background-color: #1a1919; */
 }
 
 .project-cards:hover{
@@ -60,6 +61,7 @@
     border-bottom-left-radius: 1.3rem;
     padding: 0.15rem 0.5rem;
     transition: 0.3s ease;
+    object-fit: fill;
 }
 
 .project-cards:hover img{
@@ -74,8 +76,8 @@
     justify-content: center;
     text-align: start;
     width: 50%;
+    /* height: 20rem; */
     padding: 2rem;
-    background-color: #1a1919;
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;
 }
@@ -187,12 +189,13 @@
     justify-content: center;
     gap: 0.5rem;
     width: 7rem;
-    padding: 0.3rem;
+    padding: 0.5rem 0.7rem;
     border: 0.1rem solid rgb(80, 79, 79);
     border-radius: 0.5rem;
     background: linear-gradient(to right, #0d98e9,#00e1ff);
     color: white;
     font-size: 0.9rem;
+    border: none;
 }
 
 .project-right-bottom .right img{
@@ -202,6 +205,37 @@
 .project-cards:hover .right img{
     transition: 0.3s;
     transform: scale(1.02);
+    transform: translateX(0.2rem);
+}
+
+.view-project{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    border: 0.1rem solid rgb(80, 79, 79);
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #0d98e9,#00e1ff);
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.view-project img{
+    width: 0.7rem;
+}
+
+.view-project:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.03);
+    transform: translateXY(0.2rem);
+}
+
+.view-project:hover img{
+    transition: 0.3s;
+    transform: scale(1.04);
     transform: translateX(0.2rem);
 }
 
