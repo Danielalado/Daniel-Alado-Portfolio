@@ -3,14 +3,14 @@ import "./BackEnd.css"
 
 
 
-export default function FrontEnd() {
+export default function BackEnd() {
     return(
-        <div className="frontEnd">
-            <div className="frontEnd-top">
-                <p className="frontEnd-top-text">Backend & Architecture</p>
-                <div className="frontEnd-top-line"></div>
+        <div className="backEnd">
+            <div className="backEnd-top">
+                <p className="backEnd-top-text">Backend & Architecture</p>
+                <div className="backEnd-top-line"></div>
             </div>
-            <p className="frontEnd-description">
+            <p className="backEnd-description">
                I am yet to start learning Backend and it's Architecture.
             </p>
 

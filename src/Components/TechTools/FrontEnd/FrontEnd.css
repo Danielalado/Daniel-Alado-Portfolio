@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    text-align: start;
+    align-items: start;
+    /* text-align: start; */
     padding: 2rem;
     margin-top: 1rem;
     width: 80%;
@@ -29,11 +29,10 @@
 }
 
 .frontEnd-description{
-    /* align-items: flex-start; */
+    text-align: start;
     display: flex;
     color: #8c96a1;
     width: 60%;
-    /* margin-left: -1.2rem; */
 }
 
 
@@ -52,8 +51,8 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 5rem ;
-    height: 5rem;
+    width: 8rem ;
+    height: 8rem;
     background-color: #0b0d17;
     color: white;
     margin-right: 1rem;
@@ -211,10 +210,6 @@
     gap: 1rem;
   }
 
-  .frontEnd-card{
-    width: 100%;
-    height: 6rem;
-  }
 
 }
 
@@ -246,8 +241,7 @@
   }
 
   .frontEnd-card{
-    width: 100%;
-    height: 5.5rem;
+   margin-right: 0.2rem;
   }
 
   .frontEnd-title{

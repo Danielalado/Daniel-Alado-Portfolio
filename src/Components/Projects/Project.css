@@ -198,6 +198,10 @@
     border: none;
 }
 
+.project-right-bottom .right a{
+    color: white;
+}
+
 .project-right-bottom .right img{
     width: 0.7rem;
 }

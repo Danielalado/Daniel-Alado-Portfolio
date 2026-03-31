@@ -27,12 +27,12 @@ export default function About () {
                     </p>
 
                     <div className="about-my-works">
-                        <a href="#" className="project">
+                        <a href="#projects" className="project">
                             VIEW MY WORK
                             <img src={HeaderImage} alt="" />
                         </a>
                     
-                        <a href="#" className="portfolio">
+                        <a href="#contacts" className="portfolio">
                             GET IN TOUCH
                         </a>
                     </div>

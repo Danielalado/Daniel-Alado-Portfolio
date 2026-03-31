@@ -1,46 +1,49 @@
 import "./Design.css"
-import Code from "../../../assets/ServicesImages/code.png"
+import Canva from "../../../assets/TechToolsImages/canva.jfif"
+import PixelLab from "../../../assets/TechToolsImages/pixelLab.jfif"
+import LightRoom from "../../../assets/TechToolsImages/Lightroom.jfif"
+import PhotoRoom from "../../../assets/TechToolsImages/photoroom.jfif"
 
 
 
-export default function FrontEnd() {
+export default function Design() {
     return(
-        <div className="frontEnd">
-            <div className="frontEnd-top">
-                <p className="frontEnd-top-text">Design & UI/UX</p>
-                <div className="frontEnd-top-line"></div>
+        <div className="Design">
+            <div className="Design-top">
+                <p className="Design-top-text">Design & UI/UX</p>
+                <div className="Design-top-line"></div>
             </div>
-            <p className="frontEnd-description">
+            <p className="Design-description">
                Crafting intuitive and visually stunning experiences that align with brand identity.
             </p>
 
-            <div className="frontEnd-cards">
-                    <div className="frontEnd-card">
-                        <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+            <div className="Design-cards">
+                    <div className="Design-card">
+                        <div className="Design-image">
+                            <img src={Canva} alt="" />
                         </div>
-                        <p className="frontEnd-title">Canva</p>
+                        <p className="Design-title">Canva</p>
                     </div>
 
-                    <div className="frontEnd-card">
-                        <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                    <div className="Design-card">
+                        <div className="Design-image">
+                            <img src={PixelLab} alt="" />
                         </div>
-                        <p className="frontEnd-title">PixelLab</p>
+                        <p className="Design-title">PixelLab</p>
                     </div>
 
-                    <div className="frontEnd-card">
-                        <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                    <div className="Design-card">
+                        <div className="Design-image">
+                            <img src={LightRoom} alt="" />
                         </div>
-                        <p className="frontEnd-title">LightRoom</p>
+                        <p className="Design-title">LightRoom</p>
                     </div>
 
-                    <div className="frontEnd-card">
-                        <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                    <div className="Design-card">
+                        <div className="Design-image">
+                            <img src={PhotoRoom} alt="" />
                         </div>
-                        <p className="frontEnd-title">PhotoRoom</p>
+                        <p className="Design-title">PhotoRoom</p>
                     </div>
             </div>
         </div>

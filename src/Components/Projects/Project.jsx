@@ -1,5 +1,5 @@
 import FoodApp from "../../assets/ProjectImages/FoodApp2.png"
-import Date from "../../assets/ServicesImages/code.png"
+import Date from "../../assets/ProjectImages/calendar.png"
 import Arrow from "../../assets/HeaderImages/right-arrow.png"
 import Coffee from "../../assets/ProjectImages/Coffee.png"
 import EBooks from "../../assets/ProjectImages/EBook.png"
@@ -10,7 +10,7 @@ import "./Project.css"
 
 export default function Project() {
     return(
-        <div className="projects">
+        <div className="projects" id="projects">
             <h1 className="project-top">Featured</h1>
             <h1 className="project-bottom">Projects</h1>
             <p className="project-description">
@@ -42,7 +42,9 @@ export default function Project() {
                             <p className="left-bottom">WEB DESIGN</p>
                         </div>
                         <div className="right">
+                            <a href="https://foodapp-eosin-ten.vercel.app/" target="_blank">
                             <p>EXPLORE</p>
+                            </a>
                             <img src={Arrow} alt="" />
                         </div>
                     </div>
@@ -77,7 +79,9 @@ export default function Project() {
                             <p className="left-bottom">WEB DESIGN</p>
                         </div>
                         <div className="right">
+                            <a href="https://danielalado.github.io/coffe-shop/" target="_blank">
                             <p>EXPLORE</p>
+                            </a>
                             <img src={Arrow} alt="" />
                         </div>
                     </div>
@@ -112,7 +116,9 @@ export default function Project() {
                             <p className="left-bottom">WEB DESIGN</p>
                         </div>
                         <div className="right">
+                            <a href="https://danielalado.github.io/SupremEBook/" target="_blank">
                             <p>EXPLORE</p>
+                            </a>
                             <img src={Arrow} alt="" />
                         </div>
                     </div>
@@ -147,7 +153,9 @@ export default function Project() {
                             <p className="left-bottom">WEB DESIGN</p>
                         </div>
                         <div className="right">
+                            <a href="https://danielalado.github.io/DevJourney/" target="_blank">
                             <p>EXPLORE</p>
+                            </a>
                             <img src={Arrow} alt="" />
                         </div>
                     </div>

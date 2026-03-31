@@ -1,4 +1,7 @@
-import Code from "../../../assets/ServicesImages/code.png"
+import Javascript from "../../../assets/TechToolsImages/js.png"
+import React from "../../../assets/TechToolsImages/react.png"
+import Html from "../../../assets/TechToolsImages/html.png"
+import Css from "../../../assets/TechToolsImages/css.png"
 import "./FrontEnd.css"
 
 
@@ -17,28 +20,28 @@ export default function FrontEnd() {
             <div className="frontEnd-cards">
                     <div className="frontEnd-card">
                         <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                            <img src={Javascript} alt="" />
                         </div>
                         <p className="frontEnd-title">JavaScript</p>
                     </div>
 
                     <div className="frontEnd-card">
                         <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                            <img src={React} alt="" />
                         </div>
                         <p className="frontEnd-title">React</p>
                     </div>
 
                     <div className="frontEnd-card">
                         <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                            <img src={Html} alt="" />
                         </div>
                         <p className="frontEnd-title">HTML</p>
                     </div>
 
                     <div className="frontEnd-card">
                         <div className="frontEnd-image">
-                            <img src={Code} alt="" />
+                            <img src={Css} alt="" />
                         </div>
                         <p className="frontEnd-title">CSS</p>
                     </div>

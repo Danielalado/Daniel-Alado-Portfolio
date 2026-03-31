@@ -5,7 +5,7 @@ import "./Contact.css"
 
 export default function Contact() {
     return(
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <div className="contacts-left">
                 <p className="left-top"><span className="left-top-slash">//</span>GET IN TOUCH</p>
 
@@ -58,7 +58,7 @@ export default function Contact() {
 
                     <div className="message">
                         <label htmlFor="message">MESSAGE</label>
-                        <textarea name="message" id="message" required>Tell me about your project....</textarea>
+                        <textarea name="message" id="message" placeholder="Tell me about your project...." required></textarea>
                     </div>
 
                     <button className="submit">

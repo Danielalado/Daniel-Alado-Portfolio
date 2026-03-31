@@ -46,9 +46,11 @@
 }
 
 .services-cards{
-    display: grid;
+  display: flex;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+     */
+   
 }
 
 .card{
@@ -74,10 +76,11 @@
 
 .card-image img{
     position: relative;
-    background: #2629ce;
+    background: linear-gradient(to bottom, #0d98e9,#00e1ff);
+    /* background: #2629ce; */
     width: 4rem;
     height: 4rem;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 1.3rem;
     margin-top: 0.5rem;
     border-radius: 1rem;
@@ -193,6 +196,7 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   .services-cards{
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
@@ -220,6 +224,7 @@
   }
 
   .services-cards{
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     justify-items: center;
@@ -251,6 +256,7 @@
   }
 
   .services-cards{
+    display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

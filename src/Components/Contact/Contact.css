@@ -131,6 +131,7 @@ form{
     gap: 0.5rem;
     margin-bottom: 1.5rem;
     width: 100%;
+    /* color: white; */
 }
 
 label{
@@ -145,6 +146,11 @@ input{
     border-radius: 0.5rem;
     height: 2.5rem;
     background-color: #0b0d17;
+    color: white;
+}
+
+placeholder{
+    color: white;
 }
 
 .message{
@@ -158,7 +164,7 @@ input{
 textarea{
     padding: 0.5rem;
     background-color: #0b0d17;
-    color: #8c96a1;
+    color: white;
     border: none;
     margin-bottom: 1rem;
     height: 7rem;

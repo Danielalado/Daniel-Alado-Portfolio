@@ -136,81 +136,168 @@
     border-radius: 1rem;
     background: url(../../assets/AboutImages/alado.jpg);
     background-size: cover;
-    /* background-position: center; */
+    /* backgrou6nd-position: center; */
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
-/* ========================= */
-/* Tablet Responsiveness */
-/* ========================= */
 
-@media (max-width: 64rem){
+/* Smartphones (320px – 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
 
-    #about{
-        padding: 3rem 2rem;
-        gap: 3rem;
-    }
-
-    .left-col{
-        width: 100%;
-        text-align: center;
-    }
-
-    .about-me-h1,
-    .about-me-h1-bottom{
-        font-size: 3.5rem;
-    }
-
-    .about-me-h2{
-        font-size: 2rem;
-    }
-
-    /* .right-col{
-        width: 30rem;
-        height: 30rem;
-    } */
+#about{
+    padding: 2rem 1rem;
 }
 
-/* ========================= */
-/* Mobile Responsiveness */
-/* ========================= */
+.about{
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}
 
-@media (max-width: 48rem){
+.left-col{
+    width: 100%;
+    text-align: center;
+}
 
-    #about{
-        flex-direction: column;
-        padding: 2rem 1rem;
-        gap: 2rem;
-    }
+.about-me-h1{
+    font-size: 2rem;
+}
 
-    .about{
-        flex-direction: column;
-        padding: 2rem 1rem;
-        gap: 2rem;
-    }
+.about-me-h1-bottom{
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
+}
 
-    .left-col{
-        width: 100%;
-        text-align: center;
-    }
+.about-me-h2{
+    font-size: 1.5rem;
+    /* margin-bottom: ; */
+}
 
-    .about-me-h1,
-    .about-me-h1-bottom{
-        font-size: 2.5rem;
-    }
+.about-description,
+.more-about-description{
+    text-align: center;
+    /* margin-bottom: -2rem; */
+}
 
-    .about-me-h2{
-        font-size: 1.6rem;
-    }
+.about-my-works{
+    justify-content: center;
+}
 
-    .about-my-works{
-        justify-content: center;
-    }
+.right-col{
+    width: 20rem;
+    height: 20rem;
+}
 
-    .right-col{
-        width: 20rem;
-        height: 20rem;
+}
 
-    }
-}   
+
+/* Low Resolution Tablets / Large Phones (481px – 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+#about{
+    padding: 2rem 2rem;
+}
+
+.about{
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.left-col{
+    width: 100%;
+}
+
+.about-me-h1{
+    font-size: 2.5rem;
+}
+
+.about-me-h1-bottom{
+    font-size: 2.5rem;
+}
+
+.about-me-h2{
+    font-size: 1.8rem;
+}
+
+.right-col{
+    width: 24rem;
+    height: 24rem;
+}
+
+}
+
+
+/* Tablets Portrait (768px – 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+#about{
+    padding: 2rem 3rem;
+}
+
+.about{
+    gap: 2rem;
+}
+
+.left-col{
+    width: 50%;
+}
+
+.about-me-h1{
+    font-size: 3rem;
+}
+
+.about-me-h1-bottom{
+    font-size: 3rem;
+}
+
+.about-me-h2{
+    font-size: 2rem;
+}
+
+.right-col{
+    width: 28rem;
+    height: 28rem;
+}
+
+}
+
+
+/* Tablets Landscape (768px – 1024px landscape) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+.right-col{
+    width: 32rem;
+    height: 32rem;
+}
+
+}
+
+
+/* Laptops / Desktops (1025px – 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+#about{
+    padding: 2rem 4rem;
+}
+
+.left-col{
+    width: 28rem;
+}
+
+.right-col{
+    width: 34rem;
+    height: 34rem;
+}
+
+}
+
+
+/* Large Desktops (1281px and above) */
+@media (min-width: 1281px) {
+
+#about{
+    padding: 2rem 5rem;
+}
+
+}
